@@ -60,7 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_1" />
 
     <TextView
-        android:id="@+id/tv_3"
+        android:id="@+id/tv_recebido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -85,10 +85,10 @@
         android:text="Valor de rendimentos:"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_3" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_recebido" />
 
     <TextView
-        android:id="@+id/tv_5"
+        android:id="@+id/tv_rendimento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -112,7 +112,7 @@
         android:textColor="@color/white"
         android:text="Aporte por mês:"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_5" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_rendimento" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
